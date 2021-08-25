@@ -3,6 +3,11 @@ DROP TABLE IF EXISTS smer CASCADE;
 DROP TABLE IF EXISTS grupa CASCADE;
 DROP TABLE IF EXISTS student CASCADE;
 
+drop sequence if exists smer_seq;
+drop sequence if exists projekat_seq;
+drop sequence if exists student_seq;
+drop sequence if exists grupa_seq;
+
 CREATE TABLE smer(
 	id integer not null,
 	naziv varchar(100),
@@ -49,4 +54,7 @@ CREATE INDEX idxfk_grupa_smer ON grupa(smer);
 CREATE INDEX idxfk_student_grupa ON student(grupa);
 CREATE INDEX idxfk_student_projekat ON student(projekat);
 
-
+create sequence smer_seq;
+create sequence projekat_seq;
+create sequence student_seq;
+create sequence grupa_seq;

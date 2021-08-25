@@ -30,6 +30,9 @@ import { GrupaDialogComponent } from './components/dialogs/grupa-dialog/grupa-di
 import { ProjekatDialogComponent } from './components/dialogs/projekat-dialog/projekat-dialog.component';
 import { SmerDialogComponent } from './components/dialogs/smer-dialog/smer-dialog.component';
 import { StudentDialogComponent } from './components/dialogs/student-dialog/student-dialog.component';
+import { AboutComponent } from './components/core/about/about.component';
+import { AuthorComponent } from './components/core/author/author.component';
+import { HomeComponent } from './components/core/home/home.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +44,10 @@ import { StudentDialogComponent } from './components/dialogs/student-dialog/stud
     GrupaDialogComponent,
     ProjekatDialogComponent,
     SmerDialogComponent,
-    StudentDialogComponent
+    StudentDialogComponent,
+    AboutComponent,
+    AuthorComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
