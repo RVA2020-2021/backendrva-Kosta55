@@ -18,8 +18,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class Swagger {
 	//komentar
 
-	public static final Contact DEFAULT_CONTACT = new Contact("Aleksa Komosar",
-			"https://github.com/aleksakom", "aleksakomosar@gmail.com");
+	public static final Contact DEFAULT_CONTACT = new Contact("Kosta Milosev",
+			"https://github.com/Kosta55", "kosta.milosev28@gmail.com");
 
 	public static final ApiInfo DEFAULT_API_INFO = new ApiInfo("Backend RVA Swagger ", "Razvoj viseslojnih aplikacija",
 			"1.0", "", DEFAULT_CONTACT, "", "",
